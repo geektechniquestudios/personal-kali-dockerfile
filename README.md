@@ -3,5 +3,6 @@ Just a dockerfile that installs the dependencies so I don't have to do that ever
 
 
 docker build -t my-kali-image .
+
 docker run -it --network host my-kali-image
 
