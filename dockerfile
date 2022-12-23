@@ -1,5 +1,6 @@
 FROM kalilinux/kali-rolling
 
 RUN apt update && apt upgrade -y
-RUN apt -y install kali-linux-headless
+RUN apt install -y metasploit-framework
+
 
